@@ -1,6 +1,6 @@
 import React from 'react';
 import './Intro.css';
-import bg from '../../assets/image.png';
+import bg from '../../assets/image.jpeg';
 import btnImg from '../../assets/hireme.png';
 import { Link } from 'react-scroll';
 
@@ -9,10 +9,15 @@ function Intro() {
     <section id="intro">
       <div className="introcontent">
         <span className="Hello">Hello,</span>
+        <br/>
         <span className="introduction">
-          I'm Gaganashree <br /> React Developer
+          I'm Gaganashree <br /> Tech Enthusiast
         </span>
-        <p className="explain">I'm a Skilled React developer</p>
+        <p className="explain">
+          {' '}
+          A passionate Web Developer with a focus on React.js and the MERN
+          stack.
+        </p>
         <Link>
           <button className="btn">
             <img src={btnImg} alt="Hire me" className="btnImg" />

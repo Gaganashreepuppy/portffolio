@@ -10,9 +10,9 @@ import Port6 from '../../assets/portfolio-6.png';
 function Works() {
   return (
     <section id="works">
-      <h2 className="worksTitle">My Portfolio</h2>
+      <h2 className="worksTitle">My Projects</h2>
       <span className="worksDesc">
-        wjhduiefhuehiurhguirfhiurfsdnvsdjfsiufruirifrfjsdnvjdshvfufysusdfjnjznfcsudfyesudsfncsdjhfsudfhsduifjsdncjsdhcusdhfsdjfnjsdncjsdhf
+      Crafted with precision and creativity, this project showcases my ability to solve real-world problems through innovative, scalable solutions, majorly developed using the MERN tech stack
       </span>
       <div className="worksImage">
         <img src={Port1} alt="" className="worksImg" />

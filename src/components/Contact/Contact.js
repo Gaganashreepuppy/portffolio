@@ -9,7 +9,12 @@ const sendEmail = (e, form) => {
   e.preventDefault();
 
   emailjs
-    .sendForm('service_ln6d6pd', 'template_4pn96h7', form.current, 'user_yourUserId') // Replace with your user_id
+    .sendForm(
+      'service_ln6d6pd',
+      'template_4pn96h7',
+      form.current,
+      'Qfw42pZ32UTshl8cl'
+    ) // Replace with your user_id
     .then(
       () => {
         console.log('SUCCESS!');
@@ -30,8 +35,7 @@ function Contact() {
       <div id="contacts">
         <h1 className="contactTitle">Contact Me</h1>
         <span className="contactDesc">
-          Please fill out this form to reach out to me regarding any
-          opportunities
+          Kindly complete this form to contact me about potential opportunities.
         </span>
         <form
           className="contactForm"
@@ -60,7 +64,14 @@ function Contact() {
             Submit
           </button>
           <div className="links">
-            <img src={linkedIn} alt="linkedin" className="link" />
+            <a
+              href="https://www.linkedin.com/in/gaganashree-c-20967a26a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BaTsLKnjdSNiAFFkfGDLHhw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedIn} alt="LinkedIn" className="link" />
+            </a>
+
             {/* <img src={resume} alt="resume" className="link" />
             <img src={github} alt="github" className="link" /> */}
           </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.jpeg';
 import { Link } from 'react-scroll';
 import contactImg from '../../assets/contact.png';
 
@@ -29,7 +29,7 @@ function Navbar() {
           duration={500}
           className="desktopmenuList"
         >
-          Skills
+          Education and Experience
         </Link>
 
         <Link
@@ -40,7 +40,7 @@ function Navbar() {
           duration={500}
           className="desktopmenuList"
         >
-          Portfolio
+          Projects
         </Link>
       </div>
       <button
@@ -58,4 +58,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
